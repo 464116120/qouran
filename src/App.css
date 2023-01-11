@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@900&display=swap');
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  padding-top: 10px;
+  height: 10vh;
+}
+.header_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  color: #fff;
+  padding-top: 4rem;
+}
+.brand {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-weight: 900;
+  justify-content: center;
+  padding-top: 20px;
+}
+.navLink {
+  font-size: 40px;
+}
+
+.offcanvas {
+  padding-top: 15px;
+}
+
+.offcanvas-title {
+  margin-left: 2rem;
+}
+
+.offCanvas_menu li {
+  list-style: none;
+}
+
+.content_container {
+  background-image: url('https://img.freepik.com/free-photo/moon-light-shine-through-window-into-islamic-mosque-interior_1217-2597.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+}
+
+.content_overlay {
+  position: fixed;
+  min-height: 90vh;
+  width: 100vw;
+}
+.custom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  background-color: black;
+  width: 100%;
+}
+
+.custom_col {
+  margin-top: 50px;
+  margin-bottom: 2rem;
+  height: 80vh;
+  border: #222 1px solid;
+  opacity: 0.7;
+  background-color: black;
+  color: #fff;
+  padding: 2rem;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+.none {
+  list-style: none;
+  padding: 1rem !important;
+}
+.none:hover,
+.none:visited {
+  color: yellow;
+}
+
+.none a {
+  color: #fff;
+  text-decoration: none;
+}
+.none a svg {
+  margin-right: 10px;
+}
+
+svg {
+  margin-right: 10px;
+}
+
+.chapter_details {
+  list-style: none;
+  font-size: 0.92rem;
+}
+
+.chapter_details:last-child {
+  color: #222;
+}
+
+.react_player {
+  margin-top: -90px;
+}
+
+@media only screen and (max-width: 991px) {
+  .custom_col {
+    height: 33vh;
+    border: yellow 10px solid;
+    border: 15px;
+  }
+  .custom_col h3 {
+    color: yellow;
+    background-color: #222;
+  }
+}
